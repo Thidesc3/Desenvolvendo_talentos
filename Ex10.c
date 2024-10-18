@@ -5,3 +5,4 @@ jogadores, crie um programa que apresente as seguintes informações:
 • O atleta mais pesado de cada time;
 • O atleta mais jovem de cada time;
 • O peso médio e a idade média de todos os participantes. */
+
