@@ -12,7 +12,7 @@ int main() {
     float velocidade, tempo, distancia, litros, consumo_total = 0;
 
     while (1) {
-        printf("Digite a velocidade (km/h) (valor negativo para encerrar): ");
+        printf("Digite a velocidade em km/h ou 0 para encerrar: ");
         scanf("%f", &velocidade);
 
         if (velocidade < 0) {

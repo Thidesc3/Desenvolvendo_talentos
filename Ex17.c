@@ -43,10 +43,10 @@ int main() {
 
             valor_total += preco_unitario * quantidade;
 
-            printf("Pedido %d adicionado com sucesso.\n\n", numero);
+            printf("Pedido %d adicionado com sucesso!!.\n\n", numero);
         }
 
-        printf("Deseja continuar? (s/n): ");
+        printf("Quer continuar? s ou n: ");
         scanf(" %c", &continuar); 
     } while (continuar == 's' || continuar == 'S');
 

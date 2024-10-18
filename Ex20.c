@@ -70,6 +70,7 @@ int main() {
     }
 
     printf("\nResultados da pesquisa:\n");
+    printf("-------------------------------\n")
     printf("Número de torcedores por clube:\n");
     printf("Fluminense: %d\n", num_torcedores[0]);
     printf("Botafogo: %d\n", num_torcedores[1]);

@@ -5,26 +5,31 @@ até que o resultado seja menor do que o divisor. O número de subtrações real
  ao quociente inteiro e o valor restante da subtração corresponde ao resto. Suponha que os números 
  lidos sejam positivos e que o dividendo seja maior do que o divisor. */
 
-
 #include <stdio.h>
 
 int main() {
     int dividendo, divisor, quociente = 0, resto;
 
-    printf("Digite o dividendo (maior que o divisor): ");
+    printf("Digite o dividendo: ");
     scanf("%d", &dividendo);
     printf("Digite o divisor: ");
     scanf("%d", &divisor);
 
-    while (dividendo >= divisor) {
-        dividendo -= divisor;
-        quociente++;
+    if (dividendo > 0 && divisor > 0 && dividendo >= divisor) {
+        while (dividendo >= divisor) {
+            dividendo -= divisor;
+            quociente++;
+        }
+        resto = dividendo;
+
+        
+        printf("Quociente: %d\n", quociente);
+        printf("Resto: %d\n", resto);
+
+
+    } else {
+        printf("Por favor, insira valores válidos (dividendo maior que o divisor e ambos positivos).\n");
     }
-
-    resto = dividendo;
-
-    printf("Quociente: %d\n", quociente);
-    printf("Resto: %d\n", resto);
 
     return 0;
 }
