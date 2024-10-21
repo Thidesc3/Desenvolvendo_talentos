@@ -11,7 +11,7 @@ int main() {
         scanf(" %c", &letras[i]);
     }
 
-    printf("Listagem numerada:\n");
+    printf("Lista numerada:\n");
     for(i = 0; i < 10; i++) {
         printf("%d - %c\n", i + 1, letras[i]);
     }

@@ -10,7 +10,7 @@ int main() {
         scanf("%d", &numeros[i]);
     }
 
-    printf("Listagem:\n");
+    printf("Lista:\n");
     for(i = 0; i < 15; i++) {
         if(numeros[i] % 2 == 0) {
             printf("%d - %d é par\n", i + 1, numeros[i]);

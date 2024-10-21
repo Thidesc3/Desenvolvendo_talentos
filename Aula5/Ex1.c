@@ -12,7 +12,7 @@ int main() {
         scanf("%d", &vetor[i]);
     }
 
-    printf("Digite um número inteiro para buscar no vetor: ");
+    printf("Digite um número para buscar no vetor: ");
     scanf("%d", &numero);
 
     for(i = 0; i < 15; i++) {
